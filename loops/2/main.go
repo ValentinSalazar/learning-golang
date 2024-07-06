@@ -32,17 +32,17 @@ func main() {
 
 		if elemento == -1 {
 			flag = false
+		}
+		if i == 0 {
+			numeroMinimo, numeroMinimo = elemento, elemento
 		} else {
-			if i == 0 {
-				numeroMinimo, numeroMinimo = elemento, elemento
-			} else {
-				if elemento > numeroMaximo {
-					numeroMaximo = elemento
-				} else if elemento < numeroMinimo {
-					numeroMinimo = elemento
-				}
+			if elemento > numeroMaximo {
+				numeroMaximo = elemento
+			} else if elemento < numeroMinimo {
+				numeroMinimo = elemento
 			}
 		}
+
 		i++
 	}
 
