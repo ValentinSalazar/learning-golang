@@ -1,7 +1,6 @@
 /*
- Desarrollar un programa que imprima la suma de los números impares compren- didos entre 42 y 176.
+Desarrollar un programa que imprima la suma de los números impares compren- didos entre 42 y 176.
 */
-
 package main
 
 import "fmt"
