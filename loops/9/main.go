@@ -18,9 +18,9 @@ func main() {
 	b := 1
 
 	if n == 0 {
-		fmt.Print(0)
+		fmt.Print(a)
 	} else if n == 1 {
-		fmt.Print(1)
+		fmt.Print(a, " ", b)
 	} else {
 		fmt.Print(a, " ")
 		fmt.Print(b, " ")
