@@ -60,7 +60,7 @@ func CargarLista() []int {
 	return sliceEnteros
 }
 
-func imprimirSlice(slice []int) {
+func ImprimirSlice(slice []int) {
 	for _, value := range slice {
 		fmt.Print(value, " ")
 	}
